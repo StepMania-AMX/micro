@@ -1,5 +1,5 @@
 var default_options = {
-		autoPlay: 1,
+		autoPlay: /Mobi|Android/i.test(navigator.userAgent) ^ 1,
 		scrollBPM: 400,
 		theme: "fiesta",
 	},
